@@ -264,6 +264,7 @@ let rows = yield db.select('table-name', {
 
 - 复杂查询
   > 如果你看到这里说明你和我遇到了一样的问题，egg/mysql 缺少一些实用方法，这里做了一些扩展，可能在你的使用过程中，还会存在 bug，请参考着继续完善吧。
+  > 单层CUSTOM自定义查询语句
 
 ```js
         let rows = yield db.select('table-name', {
